@@ -1,6 +1,6 @@
 {
-	"name": "ws-wrapper",
-	"version": "2.0.1",
+	"name": "@justafool/ws-wrapper",
+	"version": "0.0.1",
 	"description": "Lightweight WebSocket wrapper lib with socket.io-like event handling, requests, and channels",
 	"main": "./lib/wrapper.js",
 	"browser": "./dist/index.js",
@@ -23,7 +23,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/bminer/ws-wrapper.git"
+		"url": "git+https://github.com/RFreij/ws-wrapper.git"
 	},
 	"keywords": [
 		"websocket",
@@ -37,7 +37,7 @@
 	"author": "Blake C. Miner",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/bminer/ws-wrapper/issues"
+		"url": "https://github.com/RFreij/ws-wrapper/issues"
 	},
-	"homepage": "https://github.com/bminer/ws-wrapper#readme"
+	"homepage": "https://github.com/RFreij/ws-wrapper#readme"
 }
