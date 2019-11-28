@@ -1,6 +1,6 @@
 {
 	"name": "@justafool/ws-wrapper",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"description": "Lightweight WebSocket wrapper lib with socket.io-like event handling, requests, and channels",
 	"main": "./lib/wrapper.js",
 	"browser": "./dist/index.js",
@@ -16,7 +16,7 @@
 		"ws": ">=3.3.1 <4"
 	},
 	"scripts": {
-		"prepublish": "npm run concat && npm run babel",
+		"prepare": "npm run concat && npm run babel",
 		"concat": "node ./node_modules/module-concat ./lib/wrapper.js ./dist/index.js",
 		"babel": "babel dist/index.js --out-file dist/index.js --presets=env",
 		"test": "echo \"Error: no test specified\" && exit 1"
